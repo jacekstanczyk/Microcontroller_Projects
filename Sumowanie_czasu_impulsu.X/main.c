@@ -41,7 +41,7 @@ void main()
         WyswietlLCD(napis1,14);
         
         czas = 0;
-        czas_wzorcowy = 59999;
+        czas_wzorcowy = 199999;
         
         while(czas_wzorcowy){
             

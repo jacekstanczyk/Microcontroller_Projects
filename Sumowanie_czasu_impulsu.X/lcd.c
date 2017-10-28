@@ -18,7 +18,7 @@ void Wyslij_do_LCD(unsigned char bajt){
     EN_LCD = 0;
     
     // zaczekaj 1 us
-    __delay_ms(1);
+    __delay_us(1);
     
     // ustawienie EN
     EN_LCD = 1;
